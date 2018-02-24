@@ -1,0 +1,293 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.topTab{
+	width: 7.5rem;
+	height: 0.88rem;
+	background: #ffdf5e;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.topTab .tu1{
+	width: 0.42rem;
+	height: 0.42rem;
+	margin-left: 0.23rem;
+	margin-top: 0.23rem;
+	display: block;
+	float: left;
+}
+.topTab .tu2{
+	width: 0.42rem;
+	height: 0.42rem;
+	float: right;
+	margin-right: 0.23rem;
+	margin-top: 0.23rem;
+	display: block;
+}
+.topTab .zi{
+	width: 1.46rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	line-height: 0.88rem;
+	margin-left: 2.38rem;
+}
+.cheng{
+	width: 100%;
+	height: 0.88rem;
+	background: yellow;
+}
+.banner{
+	width: 100%;
+	height: 4.22rem;
+}
+.banner img{
+	width: 100%;
+	height: 4.22rem;
+}
+.swiper-pagination-bullet-active{
+	background: #ffdf5e;
+}
+
+.fenlei{
+	width: 7.5rem;
+	height: 1.68rem;
+	margin-top: 0.3rem;
+}
+.fenlei .left{
+	width: 3.32rem;
+	height: 1.68rem;
+	background: #fff;
+	float: left;
+	margin-left: 0.24rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0 0.16rem rgba(255,219,53,0.34);
+}
+.fenlei .left .da{
+	width: 2rem;
+	height: 1.3rem;
+	margin-top: 0.17rem;
+	margin-left: 0.18rem;
+	float: left;
+}
+.fenlei .left .da img{
+	width: 0.38rem;
+	height: 0.28rem;
+	margin-bottom: 1rem;
+}
+.fenlei .left .da .tiao{
+	width: 0.2rem;
+	height: 0.03rem;
+	background: #ffd545;
+	margin-top: -0.8rem;
+}
+.fenlei .left .da .ying{
+	font-size: 0.2rem;
+	color: #424a57;
+	margin-top: 0.07rem;
+}
+.fenlei .left .da .han{
+	font-size: 0.28rem;
+	color: #ffd545;
+	margin-top: -0.06rem;
+}
+.fenlei .left .xiao{
+	width: 0.07rem;
+	height: 1.51rem;
+	background: #ffd545;
+	border-radius: 0.1rem;
+	margin-top: 0.1rem;
+	margin-left: 0.98rem;
+	float: left;
+}
+.fenlei .right{
+	width: 3.32rem;
+	height: 1.68rem;
+	background: #fff;
+	float: right;
+	margin-right: 0.24rem;
+	border-radius: 0.1rem;
+	box-shadow: 0 0 0.16rem rgba(255,219,53,0.34);
+}
+.fenlei .right .da{
+	width: 2rem;
+	height: 1.3rem;
+	margin-top: 0.17rem;
+	margin-left: 0.18rem;
+	float: left;
+}
+.fenlei .right .da img{
+	width: 0.38rem;
+	height: 0.28rem;
+	margin-bottom: 1rem;
+}
+.fenlei .right .da .tiao{
+	width: 0.2rem;
+	height: 0.03rem;
+	background: #ffd545;
+	margin-top: -0.8rem;
+}
+.fenlei .right .da .ying{
+	font-size: 0.2rem;
+	color: #424a57;
+	margin-top: 0.07rem;
+}
+.fenlei .right .da .han{
+	font-size: 0.28rem;
+	color: #ffd545;
+	margin-top: -0.06rem;
+}
+.fenlei .right .xiao{
+	width: 0.07rem;
+	height: 1.51rem;
+	background: #ffd545;
+	border-radius: 0.1rem;
+	margin-top: 0.1rem;
+	margin-left: 0.98rem;
+	float: left;
+}
+.biaoti{
+	width: 7.02rem;
+	height: 0.88rem;
+	background: #ffed5d;
+	border-radius: 0.1rem;
+	margin-top: 0.34rem;
+	margin-left: 0.24rem;
+	box-shadow: 0 0.03rem 0.03rem rgba(255,237,93,0.8);
+	border: 0.01rem solid #fff;
+}
+.biaoti .ying{
+	font-size: 0.44rem;
+	color: rgba(255, 255, 255, 0.25);
+	line-height: 0.88rem;
+	text-align: center;
+}
+.biaoti .han{
+	font-size: 0.28rem;
+	color: rgba(255, 255, 255, 0.9);
+	margin-top: -0.65rem;
+	margin-left: 2.97rem;
+}
+
+.liebiao{
+	width: 7.02rem;
+	height: 7.02rem;
+	margin-top: 0.21rem;
+	margin-left: 0.24rem;
+}
+.liebiao .leibiaoa{
+	width: 100%;
+	height: 2.23rem;
+	border-radius: 0.1rem;
+	margin-bottom: 0.17rem;
+}
+.liebiao .leibiaoa .zuo{
+	width: 2.23rem;
+	height: 2.23rem;
+	float: left;
+}
+.liebiao .leibiaoa .zuo img{
+	width: 2.23rem;
+	height: 2.23rem;
+}
+.liebiao .leibiaoa .you{
+	width: 4.56rem;
+	height: 2.23rem;
+	float: left;
+	margin-left: 0.23rem;
+}
+.liebiao .leibiaoa .you .mingzi{
+	font-size: 0.26rem;
+	color: rgba(39, 39, 39, 0.9);
+	margin-top: 0.6rem;
+}
+.liebiao .leibiaoa .you .jiage{
+	font-size: 0.32rem;
+	color: #ffbc5d;
+	float: left;
+}
+.liebiao .leibiaoa .you del{
+	font-size: 0.22rem;
+	color: rgba(42, 46, 54, 0.5);
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.15rem;
+}
+.liebiao .leibiaoa .you .xuxian{
+	font-size: 0.11rem;
+	color: rgba(49, 49, 49, 0.4);
+	margin-top: 0.43rem;
+}
+.liebiao .leibiaoa .you .dingwei{
+	width: 0.8rem;
+	height: 0.23rem;
+	font-size: 0.2rem;
+	color: rgba(39, 39, 39, 0.6);
+	float: left;
+	/* margin-left: 0.2rem; */
+	margin-top: 0.1rem;
+}
+.liebiao .leibiaoa .you .dingwei img{
+	width: 0.2rem;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-top: 0.03rem;
+}
+.liebiao .leibiaoa .you .yishou{
+	width: 1.4rem;
+	height: 0.23rem;
+	font-size: 0.2rem;
+	color: rgba(39, 39, 39, 0.6);
+	float: left;
+	margin-left: 0.62rem;
+	margin-top: 0.1rem;
+}
+.liebiao .leibiaoa .you .yishou img{
+	width: 0.2rem;
+	height: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 1.48rem;
+}
+.dibu{
+	width: 7.5rem;
+	height: 0.98rem;
+	margin-top: 0.2rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	overflow: hidden;
+}
+.dibu .kuai{
+	width: 1.86rem;
+	height: 0.98rem;
+	background: #f7f7f7;
+	float: left;
+	margin-right: 0.01rem;
+}
+.dibu .kuai:nth-child(4){
+	margin-right: 0;
+}
+.dibu .kuai  img{
+	width: 0.77rem;
+	height: 0.77rem;
+	display: block;
+	margin-left: 0.6rem;
+	margin-top: -0.1rem;
+}
+.dibu .kuai .zi{
+	font-size: 0.24rem;
+	color: rgba(255, 237, 93, 0.8);
+	margin-left: 0.76rem;
+	margin-top: -0.2rem;
+}
